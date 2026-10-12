@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="printerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#printerBg)" rx="16"/>
+  <!-- Printer Body -->
+  <rect x="160" y="110" width="280" height="170" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- Paper Tray Top -->
+  <rect x="200" y="70" width="200" height="50" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- Output Tray -->
+  <rect x="210" y="210" width="180" height="45" rx="4" fill="#0f172a"/>
+  <!-- HP Round Logo -->
+  <circle cx="210" cy="155" r="18" fill="#0096d6"/>
+  <text x="210" y="161" font-family="'Outfit', sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">hp</text>
+  <!-- Buttons & LEDs -->
+  <circle cx="390" cy="150" r="4" fill="#22c55e"/>
+  <circle cx="410" cy="150" r="4" fill="#0284c7"/>
+  <rect x="30" y="30" width="130" height="28" rx="14" fill="#0096d6" fill-opacity="0.2" stroke="#0096d6" stroke-width="1.5"/>
+  <text x="95" y="49" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#38bdf8" text-anchor="middle">WIRELESS LASER</text>
+  <text x="300" y="365" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#f8fafc" text-anchor="middle">HP Laser 1008w WiFi Printer</text>
+  <text x="300" y="395" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#38bdf8" text-anchor="middle">Wireless Printing • 20 PPM High Speed • Mono</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wdBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="wdPlatter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#wdBg)" rx="16"/>
+  <!-- 3.5 HDD Metal Casing -->
+  <rect x="170" y="70" width="260" height="240" rx="8" fill="#334155" stroke="#64748b" stroke-width="2"/>
+  <rect x="185" y="85" width="230" height="210" rx="4" fill="#0284c7"/>
+  <!-- WD Blue Label -->
+  <circle cx="300" cy="190" r="50" fill="url(#wdPlatter)" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="300" cy="190" r="16" fill="#1e293b"/>
+  <text x="300" y="130" font-family="'Outfit', sans-serif" font-size="24" font-weight="900" fill="#ffffff" text-anchor="middle">Western Digital</text>
+  <text x="300" y="270" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">WD Blue 2TB HDD</text>
+  <rect x="30" y="30" width="110" height="28" rx="14" fill="#0284c7" fill-opacity="0.2" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="85" y="49" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#38bdf8" text-anchor="middle">3.5" DESKTOP HDD</text>
+  <text x="300" y="365" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#f8fafc" text-anchor="middle">WD Blue 2TB 7200 RPM Hard Drive</text>
+  <text x="300" y="395" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#38bdf8" text-anchor="middle">2TB Bulk Storage • 256MB Cache</text>
+</svg>

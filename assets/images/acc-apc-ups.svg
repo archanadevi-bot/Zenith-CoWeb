@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="upsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#upsBg)" rx="16"/>
+  <!-- UPS Tower Chassis -->
+  <rect x="220" y="80" width="160" height="230" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+  <!-- Front Panel Recess -->
+  <rect x="235" y="95" width="130" height="200" rx="4" fill="#09090b"/>
+  <!-- APC Logo Style -->
+  <text x="300" y="145" font-family="'Outfit', sans-serif" font-size="28" font-weight="900" fill="#22c55e" text-anchor="middle">APC</text>
+  <text x="300" y="170" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#9ca3af" text-anchor="middle">by Schneider Electric</text>
+  <!-- Power Button LED -->
+  <circle cx="300" cy="220" r="14" fill="#18181b" stroke="#22c55e" stroke-width="3"/>
+  <circle cx="300" cy="220" r="4" fill="#22c55e"/>
+  <text x="300" y="270" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#22c55e" text-anchor="middle">Back-UPS 600VA</text>
+  <rect x="30" y="30" width="140" height="28" rx="14" fill="#22c55e" fill-opacity="0.15" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="100" y="49" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#4ade80" text-anchor="middle">POWER BACKUP</text>
+  <text x="300" y="365" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#f8fafc" text-anchor="middle">APC Back-UPS 600VA / 360W UPS</text>
+  <text x="300" y="395" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#4ade80" text-anchor="middle">Automatic Voltage Regulation (AVR) • Surge Protection</text>
+</svg>

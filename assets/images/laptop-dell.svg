@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dellBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b192c" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="dellBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0076ce" />
+      <stop offset="100%" stop-color="#00b4d8" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#dellBg)" rx="16"/>
+  <!-- Laptop Screen Lid -->
+  <rect x="140" y="70" width="320" height="210" rx="10" fill="#334155" stroke="#64748b" stroke-width="3"/>
+  <rect x="150" y="80" width="300" height="180" rx="4" fill="url(#screenGrad)"/>
+  <circle cx="300" cy="170" r="30" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.9"/>
+  <text x="300" y="178" font-family="'Outfit', sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">DELL</text>
+  <circle cx="300" cy="75" r="3" fill="#00d2ff"/>
+  <!-- Base Chassis -->
+  <polygon points="100,285 500,285 460,320 140,320" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <rect x="250" y="286" width="100" height="6" rx="3" fill="#0f172a"/>
+  <!-- Trackpad & Keyboard Indication -->
+  <polygon points="170,290 430,290 410,312 190,312" fill="#0f172a" opacity="0.6"/>
+  <!-- Badges -->
+  <rect x="30" y="30" width="110" height="28" rx="14" fill="#0076ce" fill-opacity="0.2" stroke="#0076ce" stroke-width="1.5"/>
+  <text x="85" y="49" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#38bdf8" text-anchor="middle">DELL LATITUDE</text>
+  <text x="300" y="375" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#f8fafc" text-anchor="middle">Dell Latitude 5420 Core i5</text>
+  <text x="300" y="405" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#00d2ff" text-anchor="middle">16GB RAM • 512GB NVMe SSD • Win 11 Pro</text>
+</svg>

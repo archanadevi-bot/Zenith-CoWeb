@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="caseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="rgbFan1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="50%" stop-color="#00d2ff" />
+      <stop offset="100%" stop-color="#7928ca" />
+    </linearGradient>
+    <linearGradient id="gpuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="#0b1329" rx="16"/>
+  <!-- PC Tower Case -->
+  <rect x="210" y="60" width="180" height="260" rx="8" fill="url(#caseGrad)" stroke="#334155" stroke-width="3"/>
+  <!-- Tempered Glass Window -->
+  <rect x="220" y="70" width="160" height="240" rx="4" fill="#030712" stroke="#00d2ff" stroke-width="1.5" stroke-opacity="0.6"/>
+  <!-- RGB ARGB Fans -->
+  <circle cx="300" cy="115" r="28" fill="none" stroke="url(#rgbFan1)" stroke-width="6"/>
+  <circle cx="300" cy="180" r="28" fill="none" stroke="url(#rgbFan1)" stroke-width="6"/>
+  <circle cx="300" cy="245" r="28" fill="none" stroke="url(#rgbFan1)" stroke-width="6"/>
+  <!-- GPU Graphic Card -->
+  <rect x="235" y="215" width="130" height="22" rx="3" fill="#1e293b" stroke="url(#gpuGrad)" stroke-width="2"/>
+  <text x="300" y="231" font-family="'Outfit', sans-serif" font-size="11" font-weight="900" fill="#34d399" text-anchor="middle">GEFORCE RTX 3060</text>
+  <!-- RAM Sticks RGB -->
+  <rect x="330" y="95" width="4" height="25" fill="#00d2ff"/>
+  <rect x="337" y="95" width="4" height="25" fill="#ff007f"/>
+  <!-- Power Button & Front I/O -->
+  <circle cx="230" cy="80" r="3" fill="#00d2ff"/>
+  <!-- Badges -->
+  <rect x="30" y="30" width="140" height="28" rx="14" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1.5"/>
+  <text x="100" y="49" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#34d399" text-anchor="middle">CUSTOM WORKSTATION</text>
+  <text x="300" y="370" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#f8fafc" text-anchor="middle">Zenith Power-Workstation Rig</text>
+  <text x="300" y="400" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#00d2ff" text-anchor="middle">Core i7 12700 • 32GB RAM • RTX 3060 12GB</text>
+</svg>
